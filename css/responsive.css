@@ -1,0 +1,652 @@
+:root {
+  --main-color: #003478;
+  --light_border_color: #00347837;
+  --theme_bg_color: #f0f4f9;
+  --white: #fff;
+  --text_color: #5a5a5a;
+}
+@media (max-width: 1399px) {
+  .contactPg-history-img {
+    width: 100% !important;
+  }
+  .travelPg-save-section img,
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 80% !important;
+  }
+  .testimonial-userSlide {
+    width: 60%;
+  }
+}
+@media (max-width: 1265px) {
+  .carPolicy-section h1 {
+    width: 540px;
+  }
+}
+@media (max-width: 1199px) {
+  .testimonial-userSlide {
+    width: 70%;
+  }
+  .findAgent-contact-div,
+  .findAgent-email-div {
+    width: 95%;
+  }
+  .findInsurance-section .theme-quote-btn {
+    width: 150px;
+    margin-left: 10px;
+  }
+  .aboutPg-learnMore-btn {
+    width: 170px;
+    margin-left: 15px;
+  }
+  .contactPg-history-img {
+    width: 70% !important;
+  }
+  .discount-img-div img {
+    width: 100%;
+  }
+  .travelPg-save-section img {
+    width: 90% !important;
+  }
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 100% !important;
+  }
+  .discount-insurance-section h1,
+  .servicesPg-service-section h1,
+  .funded-section h1,
+  .aboutPg-history-section h1,
+  .insuranceType-section h1,
+  .aboutPg-team-section h1,
+  .travelPg-service-section h1,
+  .travelPg-save-section h1,
+  .makeInsurance-section h1,
+  .travelPg-faq-section h1,
+  .findInsurance-section h1,
+  .discount-insurance-section h1,
+  .insuranceProtection-section h1,
+  .carPolicy-section h1,
+  .findAgent-section h1,
+  .testimonial-section h1 {
+    font-size: 36px;
+  }
+  .servicesPg-service-card h4,
+  .insuranceType-section h4,
+  .travelPg-service-section h4,
+  .travelPg-faq-section h4,
+  .findInsurance-section h4,
+  .insuranceProtection-section h4 {
+    font-weight: 800;
+  }
+  .mob-offcanvas .offcanvas-body ul {
+    list-style: none;
+  }
+  .mob-offcanvas .offcanvas-body ul li a {
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  .mob-offcanvas .offcanvas-body ul li a:hover {
+    color: var(--main-color);
+  }
+  .mob-offcanvas .offcanvas-body .dropdown-menu .dropdown-item {
+    padding-bottom: 0.2rem !important;
+  }
+  .mob-offcanvas .dropdown-menu {
+    position: relative !important;
+  }
+  .insuranceType-card img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+@media (max-width: 1130px) {
+  .carPolicy-section h1 {
+    width: 475px;
+  }
+}
+@media (max-width: 991px) {
+  .findAgent-contact-div,
+  .findAgent-email-div {
+    width: 100%;
+  }
+  .testimonial-userSlide {
+    width: 55%;
+  }
+  .businessPg-help {
+    padding: 2rem 1.5rem;
+  }
+  .carPolicy-section h1 {
+    width: 440px;
+  }
+  .businessPg-collapseSection .col-lg-8 {
+    padding-right: 0;
+  }
+  .businessPg-collapseSection .col-lg-4 {
+    padding-left: 0;
+  }
+  .travelPg-Faq-btn-div {
+    padding: 1.4rem 1.4rem 1rem 1.4rem;
+    cursor: pointer;
+  }
+  .makeInsurance-section img,
+  .carPolicy-section img {
+    width: 100%;
+  }
+  .aboutMore-section .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .contactPg-history-img {
+    width: 80% !important;
+  }
+  .insuranceProtection-img-div {
+    width: 100%;
+  }
+  .servicesPg-service-card h4,
+  .insuranceType-section h4,
+  .travelPg-service-section h4,
+  .travelPg-faq-section h4,
+  .findInsurance-section h4,
+  .insuranceProtection-section h4 {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .logo-col img {
+    width: 180px;
+  }
+  .logo-col {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .logo-area .col-sm-12 {
+    margin: auto !important;
+    text-align: center !important;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    padding-bottom: 6px !important;
+  }
+  .contagPg-address-section svg {
+    height: 1.5rem !important;
+  }
+}
+@media (max-width: 900px) {
+  .businessPg-collapseSection .col-lg-8 {
+    flex: 0 0 70%;
+    width: 70%;
+  }
+  .businessPg-collapseSection .col-lg-4 {
+    flex: 0 0 30%;
+    width: 30%;
+  }
+}
+@media (max-width: 885px) {
+  .carPolicy-section h1 {
+    width: 370px;
+  }
+  .contagPg-address-section h5 {
+    font-size: 18px;
+  }
+  .travelPg-save-section img,
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 100% !important;
+  }
+}
+@media (max-width: 840px) {
+  .businessPg-collapseSection .col-lg-8 {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .businessPg-collapseSection .col-lg-4 {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .businessPg-help {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  .accordion-btn.accordion-button:not(.collapsed),
+  .accordion-btn.collapsed {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .findAgent-section h3 {
+    font-size: 22px;
+  }
+  .findAgent-contact-div svg {
+    height: 1.7rem !important;
+    margin-top: 10px;
+  }
+  .findAgent-email-div {
+    padding: 2.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .servicesPg-service-card {
+    padding: 0.5rem;
+  }
+  .servicePg-card-bg {
+    padding: 1.2rem;
+  }
+  .contagPg-address-section h5 {
+    font-size: 18px;
+  }
+  .contagPg-address-section svg {
+    margin-right: 15px;
+  }
+  .contactPg-history-img {
+    width: 90% !important;
+  }
+}
+@media (max-width: 855px) {
+  .haveQuestion-section .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .haveQuestion-section h3:after,
+  .aboutMore-section h3:after {
+    left: 0%;
+  }
+  .haveQuestion-section h5,
+  .aboutMore-section h5 {
+    color: #7796be;
+  }
+  .insuranceProtection-section h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .findAgent-contact-div,
+  .findAgent-email-div {
+    padding: 2rem;
+  }
+  .findAgent-email-div {
+    padding-bottom: 1.4rem;
+    padding-top: 1.4rem;
+  }
+  .findAgent-email-div input,
+  .findAgent-email-div .input-group-text {
+    height: 47px;
+  }
+  .findAgent-section svg {
+    height: 1.4rem !important;
+    margin-top: 4px;
+  }
+  .findAgent-contact-div::after {
+    width: 45px;
+    height: 45px;
+    right: -36px;
+
+    top: 35%;
+  }
+  .findAgent-contact-div::before {
+    width: 57px;
+    height: 57px;
+    right: -42px;
+    top: 30.4%;
+  }
+  .findAgent-section h5 {
+    font-size: 18px;
+  }
+  .carPolicy-section h1 {
+    width: 100%;
+  }
+  .carPolicy-img-div {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+  .carPolicy-section {
+    padding-top: 0;
+  }
+  .findInsurance-section .d-flex {
+    display: block !important;
+  }
+  .findInsurance-section .theme-quote-btn {
+    width: 150px;
+  }
+  .findInsurance-btn-div {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .travelPg-service-section h1 {
+    width: 540px;
+  }
+  .makeInsurance-section .col-md-5 div {
+    margin: auto;
+    text-align: center;
+  }
+  .makeInsurance-section img {
+    width: 60%;
+  }
+  .travelPg-save-section img,
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 60% !important;
+  }
+  .travelPg-save-imgCol {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .insuranceType-card img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .contagPg-address-section h5 {
+    font-size: 20px;
+  }
+  .logoArea-contact-div {
+    border-right: none;
+    width: 200px;
+    margin: auto !important;
+    text-align: center;
+  }
+  .discount-img-div img,
+  .carPolicy-section img {
+    width: 70%;
+    float: none;
+  }
+  .discount-img-div {
+    margin: auto;
+    text-align: center;
+  }
+  .discount-insurance-section h1,
+  .servicesPg-service-section h1,
+  .funded-section h1,
+  .aboutPg-history-section h1,
+  .insuranceType-section h1,
+  .aboutPg-team-section h1,
+  .travelPg-service-section h1,
+  .travelPg-save-section h1,
+  .makeInsurance-section h1,
+  .travelPg-faq-section h1,
+  .findInsurance-section h1,
+  .discount-insurance-section h1,
+  .insuranceProtection-section h1,
+  .carPolicy-section h1,
+  .findAgent-section h1,
+  .testimonial-section h1 {
+    font-size: 28px;
+  }
+  .findAgent-section h1 {
+    width: 420px;
+  }
+  .fundedSwiper img {
+    max-width: 110px;
+    max-height: 110px;
+  }
+  .contagPg-address-section .col-md-3 {
+    padding-left: 10px !important;
+  }
+  .contactPg-map-section iframe {
+    height: 300px;
+  }
+  .contactPg-msg-btn {
+    margin-top: 2rem !important;
+  }
+  .contactPg-history-img {
+    width: 70% !important;
+  }
+  .aboutPg-history-section .col-md-4 {
+    margin: auto;
+    text-align: center;
+  }
+  .testimonial-userSlide {
+    width: 65%;
+  }
+}
+@media (max-width: 680px) {
+  .findAgent-contact-div {
+    padding-left: 1.4rem;
+    padding-right: 0rem;
+  }
+}
+@media (max-width: 660px) {
+  .contactPg-history-img {
+    width: 80% !important;
+  }
+  .main-slider-caption h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 600px) {
+  .header .navbar-nav {
+    display: none;
+  }
+  .findAgent-contact-div div {
+    padding: 0 0 0 0.6rem !important;
+  }
+  .travelPg-save-section img,
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 80% !important;
+  }
+  .header .navbar-collapse {
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+  }
+  .header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .header-collapse-btn {
+    border: 1px solid var(--white);
+    padding: 0 5px 3px 5px;
+    margin-left: 25px;
+    display: block;
+  }
+  .header-dot-img {
+    margin-left: auto;
+  }
+}
+@media (max-width: 576px) {
+  .testimonial-userSlide {
+    width: 75%;
+  }
+  .businessPg-help {
+    padding: 2rem;
+  }
+  .accordion-btn.accordion-button:not(.collapsed),
+  .accordion-btn.collapsed {
+    font-size: 16px;
+  }
+  .discount-insurance-section h1,
+  .servicesPg-service-section h1,
+  .funded-section h1,
+  .aboutPg-history-section h1,
+  .insuranceType-section h1,
+  .aboutPg-team-section h1,
+  .travelPg-service-section h1,
+  .travelPg-save-section h1,
+  .makeInsurance-section h1,
+  .travelPg-faq-section h1,
+  .findInsurance-section h1,
+  .insuranceProtection-section h1,
+  .carPolicy-section h1,
+  .findAgent-section h1,
+  .testimonial-section h1 {
+    font-size: 24px;
+  }
+  .servicesPg-service-card h4,
+  .insuranceType-section h4,
+  .travelPg-service-section h4,
+  .travelPg-faq-section h4,
+  .findInsurance-section h4,
+  .insuranceProtection-section h4,
+  .testimonial-section h4,
+  .main-slider-caption h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px !important;
+    /* font-weight: 800; */
+  }
+
+  .findAgent-section h1 {
+    width: 350px;
+  }
+  .findAgent-contact-div::before,
+  .findAgent-contact-div::after {
+    display: none;
+  }
+  .findAgent-contact-div svg {
+    height: 2.2rem !important;
+    margin-top: 15px;
+  }
+  .servicesPg-service-card {
+    padding: 0.8rem;
+  }
+  .servicePg-card-bg {
+    padding: 1.5rem;
+  }
+
+  .footer .col-12 {
+    text-align: center;
+    margin: auto;
+  }
+  .footer-socialIcon-div {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+  .contactPg-history-img {
+    width: 50% !important;
+  }
+  .aboutMore-section {
+    margin-top: 0rem !important;
+  }
+  .travelPg-service-section h1 {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  .insuranceType-card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .aboutPg-learnMore-btn {
+    padding: 12px 15px;
+    width: 150px;
+  }
+  .makeInsurance-section img {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .testimonial-userSlide {
+    width: 95%;
+  }
+  .travelPg-save-section img,
+  .discount-insurance-section img,
+  .carPolicy-section img {
+    width: 100% !important;
+  }
+  .makeInsurance-section img {
+    width: 100%;
+  }
+  .discount-img-div img {
+    width: 80%;
+  }
+  .aboutPg-learnMore-section .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  .makeInsurance-card {
+    padding: 1rem;
+  }
+  .makeInsurance-card .nav-link {
+    font-weight: 800;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .socialIcon-area .d-flex {
+    display: block !important;
+    /* width: 200px; */
+    margin: auto;
+    /* align-items: center; */
+    text-align: center;
+  }
+  .socialIcon-area-links {
+    margin-top: 1rem;
+  }
+  .contactPg-history-img {
+    width: 60% !important;
+  }
+  .top-social-iconDiv {
+    margin-left: 28px;
+  }
+  .testimonial-section h4 {
+    width: 100%;
+  }
+}
+@media (max-width: 440px) {
+  .discount-img-div img {
+    width: 85%;
+  }
+  .discount-insurance-section h1,
+  .servicesPg-service-section h1,
+  .funded-section h1,
+  .aboutPg-history-section h1,
+  .insuranceType-section h1,
+  .aboutPg-team-section h1,
+  .travelPg-service-section h1,
+  .travelPg-save-section h1,
+  .makeInsurance-section h1,
+  .travelPg-faq-section h1,
+  .findInsurance-section h1,
+  .insuranceProtection-section h1,
+  .carPolicy-section h1,
+  .findAgent-section h1,
+  .testimonial-section h1 {
+    font-size: 22px;
+  }
+  .servicesPg-service-card h4,
+  .insuranceType-section h4,
+  .travelPg-service-section h4,
+  .travelPg-faq-section h4,
+  .findInsurance-section h4,
+  .insuranceProtection-section h4,
+  .testimonial-section h4,
+  .main-slider-caption h4 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 20px !important;
+    /* font-weight: 800; */
+  }
+  h5 {
+    font-size: 16px !important;
+    /* font-weight: 800; */
+  }
+  .main-slider-caption h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .discount-img-div img {
+    width: 100%;
+  }
+  .findAgent-section h1 {
+    width: 100%;
+  }
+  .contagPg-address-section h5 {
+    font-size: 18px;
+  }
+  .testimonial-userSlide {
+    width: 100%;
+  }
+}

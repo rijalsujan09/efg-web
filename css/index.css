@@ -1,0 +1,1177 @@
+:root {
+  --main-color: #003478;
+  --light_border_color: #00347837;
+  --theme_bg_color: #f0f4f9;
+  --white: #fff;
+  --text_color: #5a5a5a;
+}
+.row {
+  margin: 0;
+}
+.findInsurance-section h1,
+.insuranceType-section h1,
+.aboutPg-team-section h1,
+.testimonial-section h1,
+.servicesPg-service-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+}
+
+.travelPg-service-section h1:before,
+.travelPg-faq-section h1:before,
+.funded-section h1:before,
+.testimonial-section h1:before,
+.insuranceType-section h1:before,
+.aboutPg-team-section h1:before,
+.findInsurance-section h1:before,
+.servicesPg-service-section h1:before,
+.aboutPg-history-section h1:before,
+.insuranceProtection-section h1:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  left: 50%;
+  top: -25px;
+  transform: translate(-50%, -50%);
+  background: var(--main-color);
+}
+.socialIcon-area {
+  background: var(--theme_bg_color);
+  padding: 0.7rem;
+}
+.socialIcon-area svg {
+  border-right: 1px solid #00347837;
+  padding: 6px 15px;
+  fill: var(--main-color);
+  height: 28px;
+}
+.socialIcon-area svg:first-child {
+  padding-left: 0;
+}
+.socialIcon-area-links a:last-child {
+  border-right: none;
+}
+.socialIcon-area-links {
+  margin-left: auto;
+}
+.socialIcon-area-links a {
+  border-right: 1px solid #00347837;
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 3px 15px;
+  font-weight: 600;
+}
+.socialIcon-area-links a:last-child {
+  padding-right: 0;
+}
+/* logo area */
+.logo-area {
+  padding: 2rem 1rem;
+  color: var(--main-color);
+}
+.logo-area h5,
+.logo-area svg {
+  fill: var(--main-color);
+}
+.logo-area span {
+  color: var(--light_border_color);
+  font-weight: bold;
+}
+
+.logoArea-contact-div {
+  border-right: 1px solid #00347837;
+}
+.quote-btn {
+  background: var(--main-color);
+  border-radius: 5px;
+  font-weight: bold;
+  color: var(--white);
+  padding: 12px 25px;
+}
+.quote-btn:hover {
+  color: var(--white);
+}
+.quote-btn svg {
+  fill: var(--white);
+  padding-right: 3px;
+  margin-top: -3px;
+}
+.header {
+  background: var(--main-color);
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.header-collapse-btn {
+  display: none;
+}
+.header ul {
+  padding: 0.9rem;
+  position: relative;
+}
+.header li {
+  padding: 0 10px;
+}
+.header .navbar-nav a {
+  color: var(--white);
+}
+.header .navbar-nav a:hover {
+  color: #b8d0ef;
+}
+.header .dropdown-menu li {
+  padding: 0;
+}
+.header .dropdown-menu .dropdown-item {
+  color: #000;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.header .dropdown-menu .dropdown-item:hover {
+  color: var(--main-color);
+}
+.search-form {
+  background: #00449e;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-form svg {
+  fill: var(--white);
+  padding-left: 30px;
+  margin: auto;
+  text-align: center;
+}
+.search-form input {
+  height: 68px;
+  width: 250px;
+  background: none;
+
+  border: none;
+  font-weight: bold;
+}
+.search-form input::placeholder {
+  color: var(--white);
+}
+.search-form input:focus {
+  background: none;
+  box-shadow: none;
+  color: var(--white);
+}
+/* top section end */
+/* main slider section start */
+/* swiper slider start  */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  /* height: 20%; */
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+/* swiper slider end */
+.main-slider-section {
+  margin-top: -2rem;
+}
+.main-slider {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8rem 0;
+}
+.main-slider-img1 {
+  background-image: url("http://demo.themewinter.com/wp/instive/wp-content/uploads/2019/08/slider_image3.jpg");
+}
+.main-slider-img2 {
+  background-image: url("http://demo.themewinter.com/wp/instive/wp-content/uploads/2019/09/slider_image5.jpg");
+}
+.main-slider-img3 {
+  background-image: url("http://demo.themewinter.com/wp/instive/wp-content/uploads/2019/09/slider_image6.jpg");
+}
+.main-slider-pointer {
+  left: 0 !important;
+  bottom: 45% !important;
+  right: 80% !important;
+  margin-left: 15px !important;
+  margin: auto;
+}
+.carousel-indicators {
+  display: block !important;
+}
+.carousel-indicators [data-bs-target] {
+  display: block !important;
+  margin-bottom: 10px;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+}
+.carousel-indicators .active {
+  height: 12px;
+  width: 12px;
+  margin-left: 1.5px;
+}
+.carousel .carousel-indicators [data-bs-target] {
+  background: var(--light_border_color);
+  border: 3px solid var(--white);
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 25rem 0rem 35rem 0px #003478e2;
+  /* -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.9); */
+  /* -webkit- box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.9); */
+}
+.main-slider-caption {
+  bottom: 20%;
+  right: inherit;
+  color: var(--white);
+  text-align: left;
+}
+.main-slider-caption h4 {
+  font-weight: bold;
+  position: relative;
+}
+.main-slider-caption h4::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin: 12px 0 0 20px;
+  background: var(--white);
+}
+.main-slider-caption h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.main-slider-caption h5 {
+  font-weight: normal;
+  position: relative;
+  padding-left: 20px;
+}
+.main-slider-caption h5::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  /* margin: 12px 0 0 20px; */
+  left: 0;
+
+  background: var(--white);
+}
+.mainSlider-Quote-btn {
+  background: var(--white);
+  color: var(--main-color);
+  fill: var(--main-color);
+  font-weight: bold;
+  padding: 15px 20px;
+}
+.mainSlider-about-btn {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: var(--white);
+  fill: var(--white);
+}
+.mainSlider-about-btn:hover,
+.mainSlider-Quote-btn:hover {
+  background: var(--main-color);
+  color: var(--white);
+  border: 1px solid var(--main-color);
+  fill: var(--white);
+}
+/* main slider section end */
+/* discounnt insurance section start */
+.discount-insurance-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  /* font-size: 48px; */
+}
+.discount-insurance-section p {
+  color: var(--text_color);
+}
+.discount-insurance-section img {
+  border-radius: 5px;
+}
+.discount-img-div img {
+  float: right;
+}
+
+.learn-more-btn {
+  background: var(--main-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  fill: var(--white);
+  color: var(--white);
+  padding: 12px 20px;
+}
+.learn-more-btn:hover {
+  color: var(--white);
+}
+/* discounnt insurance section end */
+/* insurance Protection section start */
+.insuranceProtection-section .col-3 {
+  position: relative;
+}
+.insuranceProtection-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  width: 800px;
+  margin: auto;
+}
+
+/* .insuranceProtection-section img {
+  object-fit: cover;
+  height: 400px;
+  border-radius: 5px;
+} */
+.insuranceProtection-img {
+  background-color: var(--main-color);
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+}
+.insuranceProtection-img1 {
+  background-image: url(../images/featuere_icon1.png);
+}
+.insuranceProtection-img2 {
+  background-image: url(../images/featuere_icon2.png);
+}
+.insuranceProtection-img3 {
+  background-image: url(../images/featuere_icon3.png);
+  border-radius: 5px;
+}
+.insuranceProtection-img4 {
+  border-radius: 30%;
+  background-image: url(../images/featuere_icon4.png);
+}
+.insuranceProtection-img-div {
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.insuranceProtection-img-div h4 {
+  color: var(--main-color);
+  font-weight: 900;
+  text-align: center;
+}
+.insuranceProtection-img-div p {
+  text-align: center;
+  color: var(--text_color);
+}
+.insuranceProtection-img-div:hover h4,
+.insuranceProtection-img-div:hover p {
+  color: var(--white);
+}
+.insuranceProtection-img-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  background: #003478fb;
+  height: 100%;
+  z-index: 1;
+  width: 0%;
+  border-radius: 5px;
+  display: none;
+  color: var(--white);
+  text-align: center;
+}
+.insuranceProtection-img-content.animate__jackInTheBox {
+  display: block;
+  width: 100%;
+}
+.insuranceProtection-img-content h4 {
+  font-weight: bold;
+}
+.insuranceProtection-img-content img {
+  width: 50px;
+  height: 50px;
+}
+/* insurance Protection section end */
+/* find insurance  section start */
+
+.findInsurance-section h5,
+.insuranceType-section h5,
+.aboutPg-team-section h5 {
+  font-weight: normal;
+  color: var(--text_color);
+
+  margin-top: 20px;
+  margin-right: auto;
+}
+.findInsurance-section h4 {
+  color: var(--main-color);
+  font-weight: 900;
+  max-width: 800px;
+}
+.theme-quote-btn {
+  background: var(--main-color);
+  color: var(--white);
+  fill: var(--white);
+  font-weight: bold;
+  padding: 12px 20px;
+}
+.theme-quote-btn:hover {
+  color: var(--white);
+  fill: var(--white);
+}
+/* find insurance  section end */
+/* car policy  section start */
+.carPolicy-section {
+  background: #f0f4f9;
+  padding: 2rem 0;
+}
+.carPolicy-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  width: 600px;
+}
+.carPolicy-section h5 {
+  font-weight: normal;
+  color: var(--text_color);
+}
+
+/* car policy  section end */
+/* insurance  type section start */
+.insuranceType-section h4 {
+  color: var(--main-color);
+  font-weight: 800;
+}
+.insuranceType-section p {
+  color: var(--text_color);
+}
+.readMore-link {
+  color: var(--main-color);
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.insuranceType-card {
+  box-shadow: 0px 35px 50px 0px rgba(0, 0, 0, 0.07);
+  transition: 0.5s;
+}
+.insuranceType-card:hover {
+  box-shadow: none;
+}
+.loadMore-btn {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  fill: var(--main-color);
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.loadMore-btn:hover {
+  background: var(--main-color);
+  color: var(--white);
+  fill: var(--white);
+}
+/* insurance  type section end */
+/* find agent section start */
+.findAgent-section {
+  background-color: #e6e6e6;
+  background-image: url("../images/bg.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 1.4em;
+}
+.findAgent-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  text-align: center;
+  width: 580px;
+  margin: auto;
+}
+.findAgent-contact-div,
+.findAgent-email-div {
+  background: var(--main-color);
+  border-radius: 5px;
+  padding: 3rem;
+  color: var(--white);
+  fill: var(--white);
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+}
+.findAgent-contact-div::after {
+  content: "OR";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--white);
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  font-weight: bold;
+  right: -40px;
+  top: 35%;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+.findAgent-contact-div::before {
+  position: absolute;
+  content: "";
+  background: var(--white);
+  width: 62px;
+  height: 62px;
+  right: -46px;
+  top: 31.4%;
+  border-radius: 100%;
+  z-index: 1;
+}
+.findAgent-email-div {
+  margin-left: 0;
+  padding: 2.5rem;
+}
+.findAgent-email-div input,
+.findAgent-email-div .input-group-text {
+  background: #114487;
+  height: 50px;
+  border: none;
+  color: var(--theme_bg_color);
+}
+.findAgent-email-div input:focus {
+  background: #114487;
+  color: var(--white);
+  box-shadow: none;
+}
+.findagent-email-div input::placeholder {
+  color: var(--theme_bg_color);
+}
+/* find agent section end */
+/* testimonial  section start */
+.testimonial-userSlide img {
+  width: 80px !important;
+  height: 80px !important ;
+  border-radius: 100%;
+  margin: auto;
+  text-align: center;
+}
+.testimonial-userSlide {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.testimonial-userSlide h6 {
+  font-weight: 900;
+  color: var(--main-color);
+}
+.testimonial-userSlide small {
+  color: var(--text_color);
+}
+.testimonial-userSlide .swiper-slide {
+  display: block;
+}
+.testimonial-userSlide .swiper-slide:not(.swiper-slide-thumb-active) img {
+  width: 60px !important;
+  height: 60px !important ;
+}
+.testimonial-userSlide .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.testimonial-userSlide
+  .swiper-slide:not(.swiper-slide-thumb-active)
+  .testimonial-user-text {
+  opacity: 0;
+}
+.testimonial-section h4 {
+  color: var(--text_color);
+  font-size: 20px;
+  width: 450px;
+}
+
+/*  testimonial section end */
+/*  make insurance  section start */
+.makeInsurance-section {
+  background-color: #e5eaf1;
+  background-image: url("../images/quote_bg_texture.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.makeInsurance-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+}
+.makeInsurance-section p {
+  color: var(--main-color);
+}
+.makeInsurance-card {
+  padding: 2rem;
+}
+.makeInsurance-card .nav-link {
+  background: none;
+  border-bottom: 2px solid var(--light_border_color);
+  font-weight: 900;
+  border-radius: 0;
+  opacity: 0.4;
+  /* margin: 0 1  5px; */
+  font-size: 18px;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+.makeInsurance-card .nav-link.active {
+  opacity: 1;
+  background: none;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+.makeInsurance-card input,
+.makeInsurance-card select {
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.07);
+}
+.saving-btn {
+  background: var(--main-color);
+  width: 100%;
+  padding: 12px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+}
+.saving-btn:hover {
+  color: var(--white);
+}
+.makeInsurance-rating-div {
+  fill: #fec42d;
+}
+.makeInsurance-rating-div h6,
+.makeInsurance-rating-div b {
+  color: var(--main-color);
+  font-weight: bold;
+}
+/*  make insurance section end */
+/*  funded section start */
+.funded-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  position: relative;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.fundedSwiper img {
+  max-width: 130px;
+  max-height: 130px;
+  object-fit: contain;
+}
+/*  funded insurance section end */
+/*  blog section start */
+
+/* .blog-section h5 {
+  color: var(--main-color);
+  font-weight: 900;
+}
+.blog-section p {
+  color: var(--text_color);
+  fill: var(--text_color);
+}
+.blog-card img {
+  height: 350px;
+  object-fit: cover;
+} */
+
+/*  blog insurance section end */
+/*  have question section start */
+.haveQuestion-section {
+  background-color: #003478;
+  background-image: url("../images/call-action-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 1.2rem 2rem 1.2rem 2rem;
+}
+.haveQuestion-section h5 {
+  color: #4771a8;
+}
+.haveQuestion-section b {
+  color: var(--white);
+}
+.haveQuestion-section h3,
+.aboutMore-section h3 {
+  font-weight: 900;
+  color: var(--white);
+  fill: var(--white);
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+.haveQuestion-section h3:after,
+.aboutMore-section h3:after {
+  content: "24/7";
+  position: absolute;
+  font-size: 5rem;
+  right: -15px;
+  z-index: 1;
+  margin-top: -38px;
+  color: #ffffff21;
+}
+/*  have question section end */
+
+/* footer start */
+.footer {
+  /* background-color: var(--main-color); */
+  background-image: linear-gradient(
+      0deg,
+      rgb(0, 52, 120),
+      rgba(0, 52, 120, 0.802)
+    ),
+    url("../images/service-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 4rem;
+  /* padding-bottom: rem; */
+  color: var(--white);
+  fill: var(--white);
+}
+.footer-reserved-p {
+  padding: 1rem;
+  background: #002e69;
+}
+.footer a {
+  color: var(--white);
+  text-decoration: none;
+}
+.footer h5 {
+  color: var(--white);
+  font-weight: 900;
+  text-decoration: underline;
+}
+.footer .footer-socialIcon-div svg {
+  padding: 0.5rem;
+  height: 2.5rem;
+}
+.footer .footer-socialIcon-div svg:hover {
+  border: 1px solid var(--white) !important;
+  border-radius: 5px;
+}
+/* index page end */
+/* conact page start */
+
+.btn-close {
+  border: 1px dotted #000;
+  border-radius: 100%;
+  margin-left: auto;
+}
+.about-slider {
+  width: 560px;
+  padding: 1.2rem;
+  fill: var(--main-color);
+}
+.about-slider h5 {
+  color: var(--main-color);
+  font-weight: 700;
+}
+.about-slider p {
+  color: var(--text_color);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: normal;
+}
+.aboutSlider-contact-btn {
+  background: var(--main-color);
+  font-weight: bold;
+  color: var(--white);
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+.aboutSlider-contact-btn:hover {
+  color: var(--white);
+}
+/* contact us page start */
+.contactPgBaner-section,
+.travelPgBaner-section,
+.businessPgBaner-section {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 52, 120, 0.791),
+      rgba(0, 52, 120, 0.802)
+    ),
+    url("../images/blog_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding: 5rem 0 4rem 0;
+  text-align: center;
+  color: var(--white);
+  margin-top: -2rem;
+}
+.contactPgBaner-section h1,
+.travelPgBaner-section h1,
+.businessPgBaner-section h1 {
+  font-weight: 900;
+}
+.contagPg-address-section h5 {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.contactPg-adrs-h5 {
+  max-width: 300px;
+}
+.contagPg-address-section svg {
+  fill: var(--main-color);
+  margin-right: 20px;
+}
+.contagPg-address-section small {
+  color: #00347884;
+  font-weight: bold;
+}
+.contactPg-form input {
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e4e7;
+}
+.contactPg-msg-btn {
+  background: var(--main-color);
+  color: var(--white);
+  font-weight: bold;
+  padding: 20px 30px;
+}
+.contactPg-msg-btn:hover {
+  color: var(--white);
+}
+/* contact page end */
+/* about page start */
+.aboutPg-history-section h1 {
+  font-weight: 900;
+  text-align: center;
+  color: var(--main-color);
+  position: relative;
+}
+
+.aboutPg-history-section h5 {
+  font-weight: 900;
+  color: var(--main-color);
+}
+.aboutPg-history-section p {
+  color: var(--text_color);
+}
+.contactPg-history-img {
+  border-top: none;
+  border-left: none;
+  border: 7px solid #fff;
+  box-shadow: 10px 10px 0 0 rgba(0, 52, 120, 0.5),
+    10px 10px 10px 10px rgba(0, 52, 120, 0.2);
+  border-radius: 10px;
+  width: 55%;
+}
+.aboutMore-section,
+.aboutPg-learnMore-section {
+  background: var(--main-color);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.aboutMore-section b,
+.aboutPg-learnMore-section b {
+  color: var(--white);
+}
+.aboutMore-section h5,
+.aboutPg-learnMore-section h5 {
+  color: #4771a8;
+  font-weight: normal;
+}
+.aboutPg-brochure-btn,
+.aboutPg-learnMore-btn {
+  margin-left: auto;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  padding: auto;
+  padding: 12px 25px;
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aboutPg-brochure-btn:hover,
+.aboutPg-learnMore-btn:hover {
+  background: #00449e;
+  color: var(--white);
+  border-color: #00449e;
+  cursor: pointer;
+}
+.aboutSwiper img:hover {
+  box-shadow: 0 0 35px 5px rgba(0, 52, 120, 0.2);
+  border-radius: 5px;
+  filter: grayscale(100%);
+}
+.aboutSwiper h5 {
+  color: var(--main-color);
+  font-weight: 900;
+}
+.aboutSwiper p {
+  color: #00459ead;
+  font-weight: 600;
+  font-size: 14px;
+}
+.aboutSwiper .swiper-slide:hover h5 {
+  text-decoration: underline;
+}
+
+/* about page end */
+/* travel insurance page start */
+.travelPg-service-section {
+  text-align: center;
+}
+.travelPg-service-section h1 {
+  width: 780px;
+  text-align: center;
+  margin: auto;
+  color: var(--main-color);
+  font-weight: 900;
+  position: relative;
+}
+
+.travelPg-serviceImg-div,
+.travelPg-FaqImg-div {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 1px dotted var(--main-color);
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.travelPg-serviceImg-div img,
+.travelPg-FaqImg-div img {
+  margin-top: 18px;
+}
+.travelPg-service-section h4,
+.travelPg-save-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+}
+.travelPg-save-section img {
+  border-radius: 5px;
+}
+.travelPg-service-section p {
+  color: var(--text_color);
+}
+.travelPg-faq-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+}
+.travelPg-faq-section h5 {
+  font-weight: normal;
+  color: var(--text_color);
+  max-width: 550px;
+  text-align: center;
+  margin: auto;
+}
+.travelPg-FaqImg-div {
+  margin: 0;
+}
+.travelPg-Faq-div {
+  box-shadow: 0px 3px 14px rgba(195, 189, 189, 0.5);
+  border-top: 5px solid var(--light_border_color);
+  border-radius: 5px;
+  position: relative;
+}
+.travelPg-Faq-div p {
+  padding: 0 2rem 2rem 2rem;
+}
+.travelPg-Faq-div:hover {
+  background: var(--main-color);
+  color: var(--white);
+}
+.travelPg-Faq-btn-div {
+  padding: 2rem 2rem 1rem 2rem;
+  cursor: pointer;
+}
+
+.travelPg-Faq-btn-div h4 {
+  color: var(--main-color);
+  font-weight: 900;
+}
+.travelPg-Faq-div:hover h4 {
+  color: var(--white);
+}
+.travelPg-Faq-btn-div:hover .travelPg-FaqImg-div {
+  border: 1px dotted var(--theme_bg_color);
+}
+.travelPg-Faq-btn-div:after {
+  content: "\2012";
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  font-weight: 900;
+  font-size: 25px;
+}
+.travelPg-Faq-btn-div.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\002B";
+}
+/* travel insurance page end */
+/*  insurance page start */
+.businessPg-help {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 52, 120, 0.791),
+      rgba(0, 52, 120, 0.663)
+    ),
+    url("../images/car-policy-image.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  border-radius: 5px;
+  color: var(--white);
+}
+.businessPg-help h5 {
+  font-weight: 900;
+}
+.businessPg-learnBtn {
+  background: #7f99bb;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: var(--white);
+}
+.accordion-btn.accordion-button:not(.collapsed) {
+  background: transparent;
+  box-shadow: none;
+  color: var(--main-color);
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  display: block;
+  position: relative;
+}
+.accordion-btn.collapsed {
+  color: #0034787c;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.accordion-btn:focus {
+  box-shadow: none;
+}
+.accordion-btn.collapsed::after {
+  content: "\002B";
+  background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+  content: " \2012 ";
+  background: var(--main-color);
+  box-shadow: 0px 10px 20px 0px rgba(0, 52, 120, 0.3);
+  color: var(--white);
+  padding: 0.2rem 0 0 0.8rem;
+  width: 35px;
+  height: 35px;
+  float: right;
+  font-weight: 900;
+  border-radius: 5px;
+  background-image: non e;
+}
+.businessPg-collapseSection .accordion-item {
+  border: none;
+}
+.findInsurance-btn-div {
+  margin-left: auto;
+}
+/*  insurance page end */
+.servicesPg-service-card h4,
+.servicesPg-service-card a {
+  color: var(--main-color);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.servicesPg-service-card p {
+  color: var(--text_color);
+}
+
+.servicesPg-service-card {
+  /* border: none; */
+  padding: 1rem;
+  position: relative;
+  /* border-top: 5px solid var(--main-color); */
+}
+.servicesPg-service-card:hover h4,
+.servicesPg-service-card:hover p,
+.servicesPg-service-card:hover a {
+  color: var(--white);
+  z-index: 2;
+}
+.servicePg-card-bg {
+  position: absolute;
+  height: 100%;
+  background: var(--main-color);
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  z-index: 1;
+  width: 100%;
+  display: none;
+  padding: 2rem;
+}
+.servicePg-card-bg.animate__jackInTheBox {
+  display: block;
+}
